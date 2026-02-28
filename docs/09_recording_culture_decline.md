@@ -170,7 +170,7 @@ VLC・Plex・Kodi・Emby など、海外発の強力なメディアソフトウ�
 
 ### 短期（〜2030年）
 
-- BD レコーダー市場は Panasonic・Toshiba が支えるが、縮小は不可避
+- BD レコーダー市場は Panasonic・Sharp（OEM）が支えるが、縮小は不可避
 - ストリーミングサービスの見逃し配信期間が延長される動き（TVerは7日→longer）
 - DTCP-IP 対応機器の新規開発は減少
 

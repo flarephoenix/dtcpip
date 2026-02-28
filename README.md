@@ -58,11 +58,15 @@ Sony BDZ-EW510（2013年製 BD/HDD レコーダー）がサポート終了とな
 | [docs/07_alternatives.md](docs/07_alternatives.md) | 代替手段（HDMI キャプチャー・nasne・BD メディア） |
 | [docs/08_diy_app_architecture.md](docs/08_diy_app_architecture.md) | 自作アプリを作る場合のアーキテクチャ設計（参考） |
 
-### 考察
+### 考察・補足
 
 | ファイル | 内容 |
 |---|---|
 | [docs/09_recording_culture_decline.md](docs/09_recording_culture_decline.md) | 録画機器・録画文化の衰退についての考察 |
+| [docs/10_seeqvault.md](docs/10_seeqvault.md) | SeeQVault（BDZ-EW510 対応確認）と DTCP+ との違い |
+| [docs/11_copyright_international.md](docs/11_copyright_international.md) | 著作権法の国際比較（日本・米国・EU・カナダ等） |
+| [docs/12_practical_guide.md](docs/12_practical_guide.md) | 実践ガイド（HDD 寿命・ffmpeg・Wireshark・スマホアプリ） |
+| [docs/13_format_war.md](docs/13_format_war.md) | Blu-ray vs HD DVD フォーマット戦争の歴史 |
 
 ---
 
@@ -96,10 +100,16 @@ Step 4（最終手段）: HDMI キャプチャー
 2. **自作アプリの技術的な壁は DTLA 証明書の一点**
    プロトコルの仕組みはある程度公開されており、UPnP/DLNA 部分は実装可能。しかし AKE（認証）に DTLA 証明書が必須で、これなしには動作しない。
 
-3. **録画文化自体が終わりに近づいている**
-   Sony がレコーダー事業から撤退。ストリーミングが録画を代替しつつある。BDZ-EW510 の問題は、より大きな「デジタルコンテンツの保存」という問題の一部。
+3. **BDZ-EW510 は SeeQVault に対応している**
+   SeeQVault 対応 USB HDD を使えば、暗号化したまま外付けドライブに移動し、SeeQVault Player Plus 等で PC 再生できる。DTCP-IP の代替手段として有効。
 
-4. **IO-DATA BDレコ（2026年）が現時点の最善策**
+4. **録画文化自体が終わりに近づいている**
+   Sony・TVS REGZA（東芝）がレコーダー事業から撤退。ストリーミングが録画を代替しつつある。BDZ-EW510 の問題は、より大きな「デジタルコンテンツの保存」という問題の一部。
+
+5. **HDD の寿命は設計の2倍以上が経過している**
+   BDZ-EW510（2013年製）の HDD は約12〜13年が経過。故障リスクが高く、**今すぐ** コンテンツ救出を行動することを強く推奨。
+
+6. **IO-DATA BDレコ（2026年）が現時点の最善策**
    既製品として合法的に使えるものがある。まずこれを試すのが正解。
 
 ---
